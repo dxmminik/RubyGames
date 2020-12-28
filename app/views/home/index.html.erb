@@ -1,0 +1,16 @@
+<h1>elko byq</h1>
+<p class="lead">Ale to będzie dojebana stronka byq</p>
+<p><%= 3 + 5 %></p>
+
+<% if @greet %>
+  <p>Hello <%= @name %>!</p>
+  <% else %>
+  <p>Buuuu!</p>
+<% end %>
+
+<ul>
+
+  <% @numbers.each do |number| %>
+  <li><%= number %></li>
+  <% end %>
+</ul>
